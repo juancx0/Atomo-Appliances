@@ -1,24 +1,60 @@
 /*style.css*/
 
+
+
+
+* {
+    box-sizing: border-box;
+}
 body {
-background-color:grey;
- 
+background-color:rgba(250, 250, 250, 0.5);
+/*background-image:*/       /*url(../atomo/atomoStore.png); use full url
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;*/
 }
 
-h1 {
-    color:blue; font-family:verdana;
+.header {
+    border:3px solid blue;
+    padding: 0;
+    background-color: rgb(5, 5, 165);
+    
+    
 }
+h1 { color:whitesmoke;
+    font-family:verdana;
 
-p {
+}
+b {
 
     font-family: verdana;
+    color:whitesmoke;
+    float:right;
+   
 }
+ul {list-style-type: none;
+    margin: 0;
+    padding:10px;
+ }
 
+li {
+    float:right;
+    color: whitesmoke;
+    padding:30px;
+    text-emphasis:bold;
+    margin:0;
+
+}
 h2 {
 
     font-size:30; font-family:verdana;
+    color:whitesmoke;
+    float:right;
+    text-align:right;
 }
-
+p {
+    color:whitesmoke;
+}
 a:link{
     text-decoration:none;
 }
